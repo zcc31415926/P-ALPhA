@@ -1,7 +1,7 @@
 # P-ALPhA
 
 <div align="center">
-    <img src="assets/teaser.png" width="1000" />
+    <img src="assets/teaser.png" width="800" />
 </div>
 
 ## Overview
@@ -16,6 +16,8 @@ We propose a physical adversarial attack method that maintains high robustness a
 - Rewrite the code
 
 ## Usage
+
+Run `conda env create -f environment.yaml && conda activate palpha` to create and activate a conda virtual environment named `palpha`
 
 Run `python main.py attack` to conduct P-ALPhA on a pretrained classifier
 

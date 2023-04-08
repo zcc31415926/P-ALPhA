@@ -1,0 +1,11 @@
+name: palpha
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - pillow
+  - numpy
+  - pytorch
+  - torchvision
+  - tqdm
+
